@@ -65,7 +65,7 @@ int main(int argc, char **argv)
     QStringList additionalExecutables;
     bool qmldirArgumentUsed = false;
     bool skipTranslations = false;
-    bool skipGlibcCheck = false;
+    bool skipGlibcCheck = true;
     QStringList qmlDirs;
     QStringList qmlImportPaths;
     QString qmakeExecutable;
